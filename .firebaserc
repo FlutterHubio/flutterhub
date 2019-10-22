@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "flutterhubio"
+  },
+  "targets": {
+    "flutterhubio": {
+      "hosting": {
+        "default": [
+          "flutterhubio"
+        ]
+      }
+    }
+  }
+}
