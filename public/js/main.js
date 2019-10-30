@@ -23,6 +23,8 @@ document.getElementById("messagebtn").addEventListener("click", function(event){
     email,
     subject,
     message,
+    type: "MESSAGE", 
+    createDate: new Date()
   })
   .then(function(docRef) {
     // console.log("Document written with ID: ", docRef.id);
